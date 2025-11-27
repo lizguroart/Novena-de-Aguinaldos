@@ -129,7 +129,7 @@ export default function Home() {
   const [selectedDay, setSelectedDay] = useState(null);
   const [selectedVillancicoId, setSelectedVillancicoId] = useState(null);
 
-  const currentSection = SECTIONS.find((s) => s.id === currentSectionId);
+  const currentSection = SECTIONS.find((s) => s.id === currentSectionId) ?? SECTIONS[0];;
 
   return (
     <div className="relative min-h-screen w-full bg-[#fdfbf7] overflow-hidden">
