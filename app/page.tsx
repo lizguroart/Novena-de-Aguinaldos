@@ -34,7 +34,7 @@ const PRAYERS = {
     text:"Acordaos, ¡oh dulcísimo Niño Jesús!, que dijisteis a la venerable Margarita del Santísimo Sacramento, y en persona suya a todos vuestros devotos, estas palabras tan consoladoras para nuestra pobre humanidad agobiada y doliente." + "\n\n" + " Todo lo que queráis pedir, pedidlo por los méritos de mi infancia y nada os será negado." + "\n\n" + "Llenos de confianza en vos, ¡oh Jesús!, que sois la misma verdad, venimos a exponeros toda nuestra miseria." + "\n\n" + "Ayúdanos a llevar una vida santa, para conseguir una eternidad bienaventurada." + "\n\n" + "Concédenos, por los méritos infinitos de vuestra encarnación y de vuestra infancia, la gracia de la cual necesitamos tanto." + "\n\n" + "Amén.",
     footer: "",
   },
-};
+} as const;
 
 const DAILY_REFLECTIONS = [
   {
@@ -122,14 +122,21 @@ const VILLANCICOS = {
     "title": "Campana sobre campana",
     text:"Campana sobre campana" + "\n" + "Y sobre campana una" + "\n" + "Asómate a la ventana" + "\n" + "Verás el niño en la cuna" + "\n\n" + "Belén, campanas de Belén" + "\n" + "Que los ángeles tocan" + "\n" + "¿Qué nuevas me traéis? " + "\n\n" + "Recogido tu rebaño" + "\n" + "¿A dónde vas, pastorcito?" + "\n" + "Voy a llevar al portal" + "\n" + "Requesón, manteca y vino " + "\n\n" + " Belén, campanas de Belén" + "\n" + "Que los ángeles tocan" + "\n" + "¿Qué nuevas me traéis? " + "\n\n" + "Campana sobre campana" + "\n" + "Y sobre campana dos" + "\n" + "Asómate a la ventana" + "\n" + "Porque está naciendo Dios",
   },
-};
+}as const;
+const PRAYER_SECTION_IDS = ["intro", "virgin", "joseph", "baby"] as const;
+type PrayerId = (typeof PRAYER_SECTION_IDS)[number]; // "intro" | "virgin" | "joseph" | "baby"
+type VillancicoId = keyof typeof VILLANCICOS;
+
+function isPrayerSection(id: string): id is PrayerId {
+  return PRAYER_SECTION_IDS.includes(id as PrayerId);
+}
 
 export default function Home() {
   const [currentSectionId, setCurrentSectionId] = useState("intro");
-  const [selectedDay, setSelectedDay] = useState(null);
-  const [selectedVillancicoId, setSelectedVillancicoId] = useState(null);
+  const [selectedDay, setSelectedDay] = useState<(typeof DAILY_REFLECTIONS)[number] | null>(null);
+  const [selectedVillancicoId, setSelectedVillancicoId] = useState<VillancicoId | null>(null)
 
-  const currentSection = SECTIONS.find((s) => s.id === currentSectionId) ?? SECTIONS[0];;
+  const currentSection = SECTIONS.find((s) => s.id === currentSectionId) ?? SECTIONS[0];
 
   return (
     <div className="relative min-h-screen w-full bg-[#fdfbf7] overflow-hidden">
@@ -244,12 +251,12 @@ export default function Home() {
             )}
 
             {/* ORACIONES SIMPLES */}
-            {["intro", "virgin", "joseph", "baby"].includes(currentSection.id) && (
+            {isPrayerSection(currentSection.id) && (
               <div className="bg-pink-50 border border-pink-100 rounded-2xl p-4">
                 <p className="text-center whitespace-pre-line">
                   {PRAYERS[currentSection.id].text}
                 </p>
-                 <p className="mt-4 text-pink-600 font-semibold text-center">
+                <p className="mt-4 text-pink-600 font-semibold text-center">
                   {PRAYERS[currentSection.id].footer}
                 </p>
               </div>
@@ -267,7 +274,7 @@ export default function Home() {
                     {Object.entries(VILLANCICOS).map(([id, song]) => (
                       <button
                         key={id}
-                        onClick={() => setSelectedVillancicoId(id)}
+                        onClick={() => setSelectedVillancicoId(id as VillancicoId)}
                         className={`w-full px-3 py-2 rounded-2xl border text-sm text-center transition
                           ${
                             selectedVillancicoId === id
