@@ -101,31 +101,44 @@ const GOZOS = [
   "¡Ven ante mis ojos, de ti enamorados! ¡Bese ya tus plantas! ¡Bese ya tus manos! ¡Prosternado en tierra, te tiendo los brazos, y aún más que mis frases, te dice mi llanto!",
   "Dulce Jesús mío, mi niño adorado, ¡Ven a nuestras almas! ¡Ven no tardes tanto!"
 ];
-const VILLANCICOS = {
-  anton:{ 
-    "title": "Anton Tiruliruliru",
-    text: "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n\n" + "Duérmete, niño chiquito" + "\n" + "Que la noche viene ya" + "\n" + "Cierra pronto tus ojitos" + "\n" + "Que el viento te arrullará" + "\n\n" + "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n\n" + "Duérmete, niño chiquito" + "\n" + " Que tu madre velará" + "\n" + "Cierra pronto tus ojitos" + "\n" + "Porque la entristecerás" + "\n\n" + "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n\n" + "Ya dormido en el regazo" + "\n" + "De María, El Salvador" + "\n" + "Va soñando dulcemente" + "\n" + "Música y cantos de amor"+ "\n\n" + "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar"
-  },
-  tutaina:{ 
-    "title": "Tutaina",
-    text: "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina" + "\n\n" + "Los pastores de Belén" + "\n" + "Vienen a adorar al niño" + "\n" + "La Virgen y San José" + "\n" + "Los reciben con cariño" + "\n\n" + "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina" + "\n\n" + "Tres reyes vienen también" + "\n" + "Con incienso, mirra y oro" + "\n" + "A ofrendar a Dios su bien" + "\n" + "Con el más grande tesoro" + "\n\n" + "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina" + "\n\n" + "Vamos todos a cantar" + "\n" + "Con amor y alegría" + "\n" + "Porque acaba de llegar" + "\n" + "De los cielos el Mesías" + "\n\n" + "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina",
-  },
-  nanita:{ 
-    "title": "La Nanita Nana",
-    text:"A la nanita, nana" + "\n" + "Nanita, nana, nanita ea" + "\n" + "Mi Jesús tiene sueño" + "\n" + "Bendito sea, bendito sea (x2)" + "\n\n" +"Fuentecilla que corres clara y sonora" + "\n" + "Ruiseñor que en en la selva cantando lloras" + "\n" + "Callad mientras la cuna se balancea" + "\n" + "A la nanita nana, nanita ea" + "\n\n" + "A la nanita, nana" + "\n" + "Nanita, nana, nanita ea" + "\n" + "Mi Jesús tiene sueño" + "\n" + "Bendito sea, bendito sea (x2)" + "\n\n" +"Manojito de rosas y de alelíes" + "\n" + "Qué es lo que estás soñando que te sonríes" + "\n" + "Cuáles son tus ensueños, dilo alma mía más" + "\n" + "Qué es lo que murmuras Eucaristía" + "\n\n" +"A la nanita, nana" + "\n" + "Nanita, nana, nanita ea" + "\n" + "Mi Jesús tiene sueño" + "\n" + "Bendito sea, bendito sea (x2)" + "\n\n" +"Pajaritos y fuentes, auras y brisas" + "\n" + "Respetad ese sueño y esas sonrisas" + "\n" + "Callad mientras la cuna se balancea" + "\n" + "Que el niño está soñando, bendito sea"
-  },
-  burrito:{
-    "title": "Burrito Sabanero",
-    text:"Con mi burrito sabanero, voy camino de Belén" + "\n" + "Con mi burrito sabanero, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" +"El lucerito mañanero ilumina mi sendero" + "\n" + "El lucerito mañanero ilumina mi sendero" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" +"Con mi cuatrico, voy cantando, mi burrito va trotando" + "\n" + "Con mi cuatrico voy cantando, mi burrito va trotando" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén " + "\n\n" +"Tuki tuki tuki tuki, tuki tuki tuki ta" + "\n" + "Apúrate, mi burrito, que ya vamos a llegar" + "\n" + "Tuki tuki tuki tuki, tuki tuki tuki tu" + "\n" + "Apúrate, mi burrito, vamos a ver a Jesús " + "\n\n" +"El lucerito mañanero ilumina mi sendero" + "\n" + "El lucerito mañanero ilumina mi sendero" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" + "Con mi cuatrico, voy cantando, mi burrito va trotando" + "\n" + "Con mi cuatrico voy cantando, mi burrito va trotando" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" +"Tuki tuki tuki tuki, tuki tuki tuki ta" + "\n" + "Apúrate, mi burrito, que ya vamos a llegar" + "\n" + "Tuki tuki tuki tuki, tuki tuki tuki tu" + "\n" + "Apúrate, mi burrito, vamos a ver a Jesús " + "\n\n" +"Con mi burrito sabanero, voy camino de Belén" + "\n" + "Con mi burrito sabanero, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén " + "\n\n" +"Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén"
-  },
-  campana:{
-    "title": "Campana sobre campana",
-    text:"Campana sobre campana" + "\n" + "Y sobre campana una" + "\n" + "Asómate a la ventana" + "\n" + "Verás el niño en la cuna" + "\n\n" + "Belén, campanas de Belén" + "\n" + "Que los ángeles tocan" + "\n" + "¿Qué nuevas me traéis? " + "\n\n" + "Recogido tu rebaño" + "\n" + "¿A dónde vas, pastorcito?" + "\n" + "Voy a llevar al portal" + "\n" + "Requesón, manteca y vino " + "\n\n" + " Belén, campanas de Belén" + "\n" + "Que los ángeles tocan" + "\n" + "¿Qué nuevas me traéis? " + "\n\n" + "Campana sobre campana" + "\n" + "Y sobre campana dos" + "\n" + "Asómate a la ventana" + "\n" + "Porque está naciendo Dios",
-  },
-}as const;
+
 const PRAYER_SECTION_IDS = ["intro", "virgin", "joseph", "baby"] as const;
 type PrayerId = (typeof PRAYER_SECTION_IDS)[number]; // "intro" | "virgin" | "joseph" | "baby"
-type VillancicoId = keyof typeof VILLANCICOS;
+//type VillancicoId = keyof typeof VILLANCICOS;
+type VillancicoId = "anton" | "campana" | "burrito"  | "burrito" | "nanita" | "tutaina";
+
+type Villancico = {
+  title: string
+  text: string
+  audioUrl: string
+}
+const VILLANCICOS: Record<VillancicoId, Villancico> = {
+  anton:{ 
+    title: "Anton Tiruliruliru",
+    text: "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n\n" + "Duérmete, niño chiquito" + "\n" + "Que la noche viene ya" + "\n" + "Cierra pronto tus ojitos" + "\n" + "Que el viento te arrullará" + "\n\n" + "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n\n" + "Duérmete, niño chiquito" + "\n" + " Que tu madre velará" + "\n" + "Cierra pronto tus ojitos" + "\n" + "Porque la entristecerás" + "\n\n" + "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n\n" + "Ya dormido en el regazo" + "\n" + "De María, El Salvador" + "\n" + "Va soñando dulcemente" + "\n" + "Música y cantos de amor"+ "\n\n" + "Anton tiruliruliru, Anton tirulirurá" + "\n" + "Anton tiruliruliru, Anton tirulirulá" + "\n" + "Jesús al pesebre, vamos a adorar" + "\n" + "Jesús al pesebre, vamos a adorar",
+    audioUrl:"/Sounds/Anton_tiruliru_liru.mp3"
+  },
+  tutaina:{ 
+    title: "Tutaina",
+    text: "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina" + "\n\n" + "Los pastores de Belén" + "\n" + "Vienen a adorar al niño" + "\n" + "La Virgen y San José" + "\n" + "Los reciben con cariño" + "\n\n" + "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina" + "\n\n" + "Tres reyes vienen también" + "\n" + "Con incienso, mirra y oro" + "\n" + "A ofrendar a Dios su bien" + "\n" + "Con el más grande tesoro" + "\n\n" + "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina" + "\n\n" + "Vamos todos a cantar" + "\n" + "Con amor y alegría" + "\n" + "Porque acaba de llegar" + "\n" + "De los cielos el Mesías" + "\n\n" + "Tutaina tuturuma" + "\n" + "Tutaina tuturumaina" + "\n" + "Tutaina tuturuma turuma" + "\n" + "Tutaina tuturumaina",
+    audioUrl:"/Sounds/Tutaina.mp3"
+  },
+  nanita:{ 
+    title: "La Nanita Nana",
+    text: "A la nanita, nana" + "\n" + "Nanita, nana, nanita ea" + "\n" + "Mi Jesús tiene sueño" + "\n" + "Bendito sea, bendito sea (x2)" + "\n\n" +"Fuentecilla que corres clara y sonora" + "\n" + "Ruiseñor que en en la selva cantando lloras" + "\n" + "Callad mientras la cuna se balancea" + "\n" + "A la nanita nana, nanita ea" + "\n\n" + "A la nanita, nana" + "\n" + "Nanita, nana, nanita ea" + "\n" + "Mi Jesús tiene sueño" + "\n" + "Bendito sea, bendito sea (x2)" + "\n\n" +"Manojito de rosas y de alelíes" + "\n" + "Qué es lo que estás soñando que te sonríes" + "\n" + "Cuáles son tus ensueños, dilo alma mía más" + "\n" + "Qué es lo que murmuras Eucaristía" + "\n\n" +"A la nanita, nana" + "\n" + "Nanita, nana, nanita ea" + "\n" + "Mi Jesús tiene sueño" + "\n" + "Bendito sea, bendito sea (x2)" + "\n\n" +"Pajaritos y fuentes, auras y brisas" + "\n" + "Respetad ese sueño y esas sonrisas" + "\n" + "Callad mientras la cuna se balancea" + "\n" + "Que el niño está soñando, bendito sea" , 
+    audioUrl: "/Sounds/A_la_nanita_nana.mp3"
+  },
+  burrito:{
+    title: "Burrito Sabanero",
+    text:"Con mi burrito sabanero, voy camino de Belén" + "\n" + "Con mi burrito sabanero, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" +"El lucerito mañanero ilumina mi sendero" + "\n" + "El lucerito mañanero ilumina mi sendero" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" +"Con mi cuatrico, voy cantando, mi burrito va trotando" + "\n" + "Con mi cuatrico voy cantando, mi burrito va trotando" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén " + "\n\n" +"Tuki tuki tuki tuki, tuki tuki tuki ta" + "\n" + "Apúrate, mi burrito, que ya vamos a llegar" + "\n" + "Tuki tuki tuki tuki, tuki tuki tuki tu" + "\n" + "Apúrate, mi burrito, vamos a ver a Jesús " + "\n\n" +"El lucerito mañanero ilumina mi sendero" + "\n" + "El lucerito mañanero ilumina mi sendero" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" + "Con mi cuatrico, voy cantando, mi burrito va trotando" + "\n" + "Con mi cuatrico voy cantando, mi burrito va trotando" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n\n" +"Tuki tuki tuki tuki, tuki tuki tuki ta" + "\n" + "Apúrate, mi burrito, que ya vamos a llegar" + "\n" + "Tuki tuki tuki tuki, tuki tuki tuki tu" + "\n" + "Apúrate, mi burrito, vamos a ver a Jesús " + "\n\n" +"Con mi burrito sabanero, voy camino de Belén" + "\n" + "Con mi burrito sabanero, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén " + "\n\n" +"Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén" + "\n" + "Si me ven, si me ven, voy camino de Belén",
+    audioUrl:"/Sounds/Mi_burrito_sabanero.mp3"
+  },
+  campana:{
+    title: "Campana sobre campana",
+    text:"Campana sobre campana" + "\n" + "Y sobre campana una" + "\n" + "Asómate a la ventana" + "\n" + "Verás el niño en la cuna" + "\n\n" + "Belén, campanas de Belén" + "\n" + "Que los ángeles tocan" + "\n" + "¿Qué nuevas me traéis? " + "\n\n" + "Recogido tu rebaño" + "\n" + "¿A dónde vas, pastorcito?" + "\n" + "Voy a llevar al portal" + "\n" + "Requesón, manteca y vino " + "\n\n" + " Belén, campanas de Belén" + "\n" + "Que los ángeles tocan" + "\n" + "¿Qué nuevas me traéis? " + "\n\n" + "Campana sobre campana" + "\n" + "Y sobre campana dos" + "\n" + "Asómate a la ventana" + "\n" + "Porque está naciendo Dios",
+    audioUrl:"/Sounds/Campana_sobre_campana.mp3"
+  },
+};
 
 function isPrayerSection(id: string): id is PrayerId {
   return PRAYER_SECTION_IDS.includes(id as PrayerId);
@@ -148,8 +161,10 @@ export default function Home() {
       />
       <main className="relative z-10 flex flex-col items-center px-4 py-8">
         <header className="max-w-2xl w-full text-center mb-6">
-          <h1 className="text-3xl md:text-4xl font-bold text-pink-500 mb-2">
-            🎄 Novena de Aguinaldo 🎄
+          <h1 className="text-3xl md:text-3xl font-bold text-pink-500 mb-2">
+              <span className="text-2xl">🎄</span> 
+              Novena de Aguinaldo 
+              <span className="text-2xl">🎄</span>
           </h1>
           <p className="text-sm text-gray-600">
             Sigue cada paso y reza  en familia!✨
@@ -292,12 +307,21 @@ export default function Home() {
                   <div className="flex-1 bg-pink-50 border border-pink-100 rounded-2xl p-4 mt-4">
                     {selectedVillancicoId && (
                       <>
+                          {/* 🎧 Audio del villancico */}
+                        <audio
+                          controls
+                          className="w-full mt-4"
+                          src={VILLANCICOS[selectedVillancicoId].audioUrl}
+                        >
+                          Tu navegador no soporta el elemento de audio.
+                        </audio>
                         <h3 className="text-center font-bold text-pink-700 mb-2 text-[20px]">
                           {VILLANCICOS[selectedVillancicoId].title}
                         </h3>
                         <p className="text-sm text-[16px] whitespace-pre-line text-center">
                           {VILLANCICOS[selectedVillancicoId].text}
                         </p>
+                  
                       </>
                     )}
                   </div>
