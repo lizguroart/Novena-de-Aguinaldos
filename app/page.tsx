@@ -31,7 +31,7 @@ const PRAYERS = {
     footer: "Se reza Padre Nuestro, Ave María y Gloria al Padre",
   },
   baby:{
-    text:"Acordaos, ¡oh dulcísimo Niño Jesús!, que dijisteis a la venerable Margarita del Santísimo Sacramento, y en persona suya a todos vuestros devotos, estas palabras tan consoladoras para nuestra pobre humanidad agobiada y doliente." + "\n\n" + " Todo lo que queráis pedir, pedidlo por los méritos de mi infancia y nada os será negado." + "\n\n" + "Llenos de confianza en vos, ¡oh Jesús!, que sois la misma verdad, venimos a exponeros toda nuestra miseria." + "\n\n" + "Ayúdanos a llevar una vida santa, para conseguir una eternidad bienaventurada." + "\n\n" + "Concédenos, por los méritos infinitos de vuestra encarnación y de vuestra infancia, la gracia de la cual necesitamos tanto." + "\n\n" + "Amén.",
+    text:"Acordaos, ¡oh dulcísimo Niño Jesús!, que dijisteis a la venerable Margarita del Santísimo Sacramento, y en persona suya a todos vuestros devotos, estas palabras tan consoladoras para nuestra pobre humanidad agobiada y doliente." + "\n\n" + " Todo lo que queráis pedir, pedidlo por los méritos de mi infancia y nada os será negado. Llenos de confianza en vos, ¡oh Jesús!, que sois la misma verdad, venimos a exponeros toda nuestra miseria." + "\n\n" + "Ayúdanos a llevar una vida santa, para conseguir una eternidad bienaventurada. Concédenos, por los méritos infinitos de vuestra encarnación y de vuestra infancia, la gracia de la cual necesitamos tanto." + "\n\n" + "Nos entregamos a vos, ¡oh Niño omnipotente!, seguros de que no quedará frustada nuestra esperanza y de que, en virtud de nuestra divina promesa, acogeréis y despacharéis favorablemente nuestra súplica. " + "\n\n" + "Amén.",
     footer: "",
   },
 } as const;
@@ -87,19 +87,19 @@ const DAILY_REFLECTIONS = [
 ];
 
 const GOZOS = [
-  "Dulce Jesús mío, mi niño adorado, ¡Ven a nuestras almas! ¡Ven no tardes tanto!",
-  "¡Oh Sapiencia suma del Dios soberano, que a infantil alcance te rebajas sacro! ¡Oh Divino Niño, ven para enseñarnos la prudencia que hace verdaderos sabios!",
-  "¡Oh Adonai potente que Moisés hablando, de Israel al pueblo diste los mandatos! ¡Ah, ven y líbranos, como a nuestros padres, de manos que oprimen y del pecado!",
-  "¡Oh raíz sagrada de Jesé que en lo alto presentas al orbe tu fragante nardo! ¡Dulcísimo Niño que has sido llamado Lirio de los Valles, Bella flor del campo!",
-  "¡Llave de David que abre al desterrado las cerradas puertas de regio palacio! ¡Sácanos. Oh Niño con tu blanca mano, de la cárcel triste que labró el pecado!",
-  "¡Oh Lumbre de Oriente, sol de eternos rayos, que entre las tinieblas tu esplendor veamos! ¡Niño tan precioso, dicha del cristiano, luzca la sonrisa de tus dulces labios!",
-  "¡Espejo sin mancha, santo de los santos, sin igual imagen del Dios soberano! ¡Borra nuestras culpas, salva al desterrado y en forma de niño, da al mísero amparo!",
-  "¡Rey de las naciones, Emmanuel preclaro, De Israel anhelo Pastor del rebaño! ¡Niño que apacientas con suave cayado ya la oveja arisca, ya el cordero manso!",
-  "¡Ábranse los cielos y llueva de lo alto bienhechor rocío como riego santo! ¡Ven hermoso Niño, ven Dios humanado! ¡Luce, hermosa estrella, brota, flor del campo!",
-  "¡Ven, que ya María previene sus brazos, do su niño vean, en tiempo cercano! ¡Ven, que ya José, con anhelo sacro, se dispone a hacerse de tu amor sagrario!",
-  "¡Del débil auxilio, del doliente amparo, consuelo del triste, luz del desterrado! ¡Vida de mi vida, mi dueño adorado, mi constante amigo, mi divino hermano!",
-  "¡Ven ante mis ojos, de ti enamorados! ¡Bese ya tus plantas! ¡Bese ya tus manos! ¡Prosternado en tierra, te tiendo los brazos, y aún más que mis frases, te dice mi llanto!",
-  "Dulce Jesús mío, mi niño adorado, ¡Ven a nuestras almas! ¡Ven no tardes tanto!"
+  "Dulce Jesús mío," + "\n" + "  mi niño adorado," + "\n" + " ¡Ven a nuestras almas!" + "\n" + "  ¡Ven no tardes tanto!",
+  "¡Oh Sapiencia suma del Dios soberano," + "\n" + "que a infantil alcance te rebajas sacro!" + "\n" + "¡Oh Divino Niño, ven para enseñarnos" + "\n" + "la prudencia que hace verdaderos sabios! " + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Oh Adonai potente que Moisés hablando," + "\n" + "de Israel al pueblo diste los mandatos!" + "\n" + " ¡Ah, ven prontamente para rescatarnos," + "\n" + " y que un niño débil muestre fuerte brazo!" + "\n" + " Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Oh raíz sagrada de Jesé que en lo alto " + "\n" + "presentas al orbe tu fragante nardo!" + "\n" + " ¡Dulcísimo Niño que has sido llamado " + "\n" + "Lirio de los Valles, Bella flor del campo!" + "\n" + " Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Llave de David que abre al desterrado " + "\n" + "las cerradas puertas de regio palacio!" + "\n" + " ¡Sácanos. Oh Niño con tu blanca mano," + "\n" + " de la cárcel triste que labró el pecado!" + "\n" + " Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Oh Lumbre de Oriente, sol de eternos rayos," + "\n" + " que entre las tinieblas tu esplendor veamos!" + "\n" + " ¡Niño tan precioso, dicha del cristiano," + "\n" + " luzca la sonrisa de tus dulces labios!" + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Espejo sin mancha, santo de los santos," + "\n" + " sin igual imagen del Dios soberano!" + "\n" + "¡Borra nuestras culpas, salva al desterrado" + "\n" + " y en forma de niño, da al mísero amparo!" + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Rey de las naciones, Emmanuel preclaro," + "\n" + " De Israel anhelo Pastor del rebaño!" + "\n" + " ¡Niño que apacientas con suave cayado " + "\n" + "ya la oveja arisca, ya el cordero manso!" + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Ábranse los cielos y llueva de lo alto" + "\n" + " bienhechor rocío como riego santo!" + "\n" + "¡Ven hermoso Niño, ven Dios humanado!" + "\n" + "¡Luce, hermosa estrella, brota, flor del campo!" + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Ven, que ya María previene sus brazos," + "\n" + " do su niño vean, en tiempo cercano!" + "\n" + " ¡Ven, que ya José, con anhelo sacro," + "\n" + "se dispone a hacerse de tu amor sagrario!" + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Del débil auxilio, del doliente amparo," + "\n" + "consuelo del triste, luz del desterrado!" + "\n" + "¡Vida de mi vida, mi dueño adorado," + "\n" + "mi constante amigo, mi divino hermano!" + "\n" + "Ven a nuestras almas! " + "\n" + " ¡Ven no tardes tanto!",
+  "¡Ven ante mis ojos, de ti enamorados!" + "\n" + "¡Bese ya tus plantas! ¡Bese ya tus manos!" + "\n" + "¡Prosternado en tierra, te tiendo los brazos," + "\n" + " y aún más que mis frases, te dice mi llanto!" + "\n" + "Ven a nuestras almas! " + "\n" +" ¡Ven no tardes tanto!",
+  "Dulce Jesús mío," + "\n" + "  mi niño adorado," + "\n" + " ¡Ven a nuestras almas!" + "\n" + "  ¡Ven no tardes tanto!"
 ];
 
 const PRAYER_SECTION_IDS = ["intro", "virgin", "joseph", "baby"] as const;
@@ -251,13 +251,13 @@ export default function Home() {
                 <p className="text-center text-sm text-gray-500">
                   Repetir el estribillo después de cada gozo:
                 </p>
-                <div className="bg-yellow-100 border border-yellow-200 rounded-2xl p-3 text-center font-semibold text-yellow-800">
+                <div className="bg-yellow-100 border border-yellow-200 rounded-2xl p-3 text-center font-semibold text-yellow-800 whitespace-pre-line">
                   {GOZOS[0]}
                 </div>
                 {GOZOS.slice(1).map((g, index) => (
                   <div
                     key={index}
-                    className="bg-gray-50 border border-gray-100 rounded-2xl p-3"
+                    className="bg-gray-50 border border-gray-100 rounded-2xl p-3 whitespace-pre-line text-center"
                   >
                     🎵 {g}
                   </div>
